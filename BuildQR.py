@@ -24,7 +24,7 @@ img = qr.make_image(fillColor = 'black',
                    backColor='white').convert('RGB')          # make qr code black and white
 
 
-# Utilizing pillow library to add an overlay image to QR code just for fun '
+# Utilizing pillow library to add an overlay image to QR code just for fun
 
 imageDisplay = Image.open('rose.png')
 imageDisplay.thumbnail((100,100))
